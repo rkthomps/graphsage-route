@@ -28,10 +28,32 @@ The resulting topology is saved in the "data/topology.json" and "data/links.json
 4. Train a GraphSage agent.
 - run `python3 python_src/train_sage.py` to train a graphsage agent.
 - You can modify the training hyperparameters by modifying the file "python_src/train_sage.py".
-- The resulting model will be saved to the directory "models/<current date and type>"
+- The resulting model will be saved to the directory "models/\<current date and time\>"
 
 5. Evaluate the GraphSage agent against classical routing algorithms.
-- 
+- run `python3 python_src/simulate_bgp.py -h` to see the available arguments. 
+- The command to get the final results from the paper was `python3 python_src/simulate_bgp.py -m models/20221202_123431 3 20 "hops;distance;bandwidth;distance-bandwidth" "0.2;0.4;0.6;0.8;1" "16;64;256;1024;8192"`
+- The results will be saved to the directory "results/\<current date and time\>"
+
+# Source Code Description
+- "python_src/create_peering_topology.py"
+  - Definition of a Node in the topology
+  - Definition of a Link in the topology
+  - Logic for constructing an AS-level topology
+  - Logic for finding paths between two nodes given a metric to route on.
+- "python_src/simulate_bgp.py"
+  - Logic for broadcasting routing tables over the topology.
+  - Logic for simulating traffic over subsets of the generated AS-level topology. 
+  - Can simulate traffic using a GraphSage model to assign weights, or using a classical routing method.
+  - Saves the result to the "results" directory along with plots for analysis. 
+- "python_src/graph_sage.py"
+  - Implementation of GraphSage in tensorflow.
+  - Implementation of on training step of ES in tensorflow.
+- "python_src/train_sage.py"
+  - Wrapper module for the training step defined in "graph_sage.py."
+  Instantiates a GraphSage model and trains it for a number of training steps using the hyperparameters
+  defined in the module. 
+  Saves the resulting model to a directory where it can later be loaded and used for evaluation. 
 
 
 
