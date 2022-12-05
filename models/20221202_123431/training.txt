@@ -1,0 +1,108 @@
+2022-12-02 11:01:56.317772: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-12-02 11:02:02.016404: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Getting diameter for 9th node.
+Broadcasting... Round 3 of 4
+Beginning epoch: 0
+Getting diameter for 19th node.
+Broadcasting... Round 3 of 4
+Variation 15 of 16
+Epoch 0 average result -55039.117
+Beginning epoch: 1
+Getting diameter for 19th node.
+Broadcasting... Round 2 of 3
+Variation 15 of 16
+Epoch 1 average result -128792.06
+Beginning epoch: 2
+Getting diameter for 19th node.
+Broadcasting... Round 2 of 3
+Variation 15 of 16
+/Users/kylethompson/Documents/FALL2022/CSC564/project/route-measure/python_src/graph_sage.py:127: RuntimeWarning: invalid value encountered in divide
+  A = (variation_results - np.mean(variation_results)) / np.std(variation_results)
+Epoch 2 average result -42.014835
+Beginning epoch: 3
+Getting diameter for 19th node.
+Broadcasting... Round 3 of 4
+Variation 15 of 16
+Epoch 3 average result -150012.52
+Beginning epoch: 4
+Getting diameter for 19th node.
+Broadcasting... Round 2 of 3
+Variation 15 of 16
+Epoch 4 average result -11.885067
+Beginning epoch: 5
+Getting diameter for 19th node.
+Broadcasting... Round 4 of 5
+Variation 15 of 16
+Epoch 5 average result -1050484.2
+Beginning epoch: 6
+Getting diameter for 19th node.
+Broadcasting... Round 2 of 3
+Variation 15 of 16
+Epoch 6 average result -12.584771
+Beginning epoch: 7
+Getting diameter for 19th node.
+Broadcasting... Round 2 of 3
+Variation 15 of 16
+Epoch 7 average result -4.740704
+Beginning epoch: 8
+Getting diameter for 19th node.
+Broadcasting... Round 3 of 4
+Variation 15 of 16
+Epoch 8 average result -620004.75
+Beginning epoch: 9
+Getting diameter for 19th node.
+Broadcasting... Round 2 of 3
+Variation 15 of 16
+Epoch 9 average result -8.308412
+Beginning epoch: 10
+Getting diameter for 19th node.
+Broadcasting... Round 2 of 3
+Variation 15 of 16
+Epoch 10 average result -1071.1729
+Beginning epoch: 11
+Getting diameter for 19th node.
+Broadcasting... Round 2 of 3
+Variation 15 of 16
+Epoch 11 average result -34.454426
+Beginning epoch: 12
+Getting diameter for 19th node.
+Broadcasting... Round 2 of 3
+Variation 15 of 16
+Epoch 12 average result -168.88342
+Beginning epoch: 13
+Getting diameter for 19th node.
+Broadcasting... Round 2 of 3
+Variation 15 of 16
+Epoch 13 average result -270032.97
+Beginning epoch: 14
+Getting diameter for 19th node.
+Broadcasting... Round 3 of 4
+Variation 15 of 16
+Epoch 14 average result -650982.1
+Beginning epoch: 15
+Getting diameter for 19th node.
+Broadcasting... Round 3 of 4
+Variation 15 of 16
+Epoch 15 average result -500510.7
+Beginning epoch: 16
+Getting diameter for 19th node.
+Broadcasting... Round 3 of 4
+Variation 15 of 16
+Epoch 16 average result -490053.75
+Beginning epoch: 17
+Getting diameter for 19th node.
+Broadcasting... Round 2 of 3
+Variation 15 of 16
+Epoch 17 average result -12.044371
+Beginning epoch: 18
+Getting diameter for 19th node.
+Broadcasting... Round 2 of 3
+Variation 15 of 16
+Epoch 18 average result -180.37717
+Beginning epoch: 19
+Getting diameter for 19th node.
+Broadcasting... Round 2 of 3
+Variation 15 of 16
+Epoch 19 average result -1.8243365
