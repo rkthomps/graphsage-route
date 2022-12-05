@@ -1,5 +1,6 @@
 # graphsage-route
-Implementation of a reinforcement learning agent that minimizes the delay of routing over a realistic AS-level topology. 
+Implementation of a reinforcement learning agent that minimizes the delay of routing over a realistic AS-level topology.
+Read the [paper](graphsage-route-paper.pdf) for details. 
 
 *Author*: Kyle Thompson (rkthomps@calpoly.edu)
 
